@@ -107,6 +107,8 @@ boot(void)
 	kprintf("\n");
 	kprintf("furkan.erdem ve muhammed.ali");
 	kprintf("\n");
+	kprintf("!*##?%=!");
+	kprintf("\n");
 	/* Early initialization. */
 	ram_bootstrap();
 	proc_bootstrap();
