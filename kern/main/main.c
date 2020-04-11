@@ -105,7 +105,8 @@ boot(void)
 	kprintf("Put-your-group-name-here's system version %s (%s #%d)\n",
 		GROUP_VERSION, buildconfig, buildversion);
 	kprintf("\n");
-
+	kprintf("Erdemlig");
+	kprintf("\n");
 	/* Early initialization. */
 	ram_bootstrap();
 	proc_bootstrap();
